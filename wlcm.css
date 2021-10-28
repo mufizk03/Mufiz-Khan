@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 60px;
+}
+
+.container {
+    border: solid #c525b7;
+    margin-top: 66px;
+    margin-left: 189px;
+    padding-bottom: 62px;
+    box-shadow: rgb(204, 33, 33);
+    text-align: center;
+    /* margin-right: -64px; */
+    padding-right: 140px;
+}
+
+.form-control {
+    border: solid black;
+    border-radius: 30px;
+    width: 52%;
+    height: calc(2.5rem + 2px);
+    margin-left: 236px;
+}
+
+button {
+    padding-right: 12px;
+    margin-top: 30px;
+}
