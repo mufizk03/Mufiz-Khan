@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <body>
     <div class="all" id="all">
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid first">
@@ -64,15 +65,16 @@
     </div>
     <hr>
     <h1>Videos</h1>
-    <div class="container" style="background-color: rosybrown; " id="container">
-        <button onclick="btnChang(-1) " type="button " id="btnPrev" class="varBtn">&#10094;</button>
-        <button onclick="btnChang(1) " type="button " id="btnNext" class="varBtn">&#10095;</button>
-        <div class="slideshow-container count">
-            <div class="slider ">
-                <div class="slide-item ">
-                    <div class="item ">
-                        <!-- <video src="vdo1.mp4" type="video/mp4"> -->
-                        <video controls>
+    <div class="container" style="border: none; width: auto;">
+        <div class="container" style="background-color: rosybrown; width: auto; " id="container">
+            <button onclick="btnChang(-1) " type="button " id="btnPrev" class="varBtn">&#10094;</button>
+            <button onclick="btnChang(1) " type="button " id="btnNext" class="varBtn">&#10095;</button>
+            <div class="slideshow-container count">
+                <div class="slider">
+                    <div class="slide-item">
+                        <div class="item">
+                            <!-- <video src="vdo1.mp4" type="video/mp4"> -->
+                            <video controls>
                                 <source src="vdo1.mp4"  class="m1" type="video/mp4">
                  </div>
                 </div>
@@ -97,15 +99,17 @@
     </div>
     </div>
     <br>
+   <div class="container" style="text-align: center; border: none;">
     <div class="commentArea"> <form class="row g-3">
         <div class="mb-3">
             <h6 style=" font-size: 33px; margin-right: -29px;">Add comment</h6>
-            <input class="form-control" id="cmntInput" style="margin-left: 41px;;
+            <input class="form-control" id="cmntInput" style="
             border: solid; border-radius: 15px; padding: 20px;" rows="3" placeholder="Enter Your Comment">
           </div>
           </div>
-      <button type="button" style="margin-left: 557px;" id="cmntBtn" class="btn btn-primary mb-3">Done</button>
-    <section>
+      <button type="button"  id="cmntBtn" class="btn btn-primary mb-3">Done</button>
+    </div>
+      <section>
         <div id="notes" class="row container-fluid"> </div>
 
     <hr>
@@ -113,7 +117,7 @@
         <section class="banner">
             <div class="banner-highlights">
                 <br>
-                <div class="container" style="width: 100%; border-radius: 20px; 
+                <div class="container" style="width: 100% auto; border-radius: 20px; 
                 height: 234px; margin-bottom: 15px; background-color: rgb(35, 180, 185);">
                     <div class="row">
                        <div class="col-md-8">
@@ -131,7 +135,7 @@
                 </div>
         
             </div>
-        
+        </div>
     </section>
     <section class="footer">
         <div class="section">
