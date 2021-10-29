@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .contain {
     margin: 0;
     padding: 0;
@@ -21,6 +26,7 @@
     color: white;
     margin-left: -2px;
     margin-bottom: -25px;
+    margin-top: 52px;
 }
 
 p {
@@ -92,8 +98,8 @@ p {
     margin-top: -250px;
     border: solid;
     border-radius: 20px;
-    width: 356px;
-    height: 388px;
+    width: 356px !important;
+    height: 388px !important;
 }
 
 .containerr-fluid {
@@ -125,13 +131,13 @@ img {
 }
 
 .slideshow-containerr {
-    width: 300px;
-    height: 250px;
+    width: 3px auto;
+    height: 250px auto;
 }
 
 .slider .slide-item .item {
     display: none;
-    position: relative;
+    width: auto;
 }
 
 .slider .slide-item .item.active {
@@ -180,13 +186,16 @@ img {
 }
 
 #btnPrev {
-    margin-right: 196px;
-    margin-left: -18px;
-    margin-top: 24px;
+    /* margin-right: 196px;
+    margin-left: -18px; */
+    /* margin-top: 24px; */
+    float: left;
 }
 
 #btnNext {
-    margin-left: 661px;
+    /* margin-left: 661px; */
+    /* margin-top: 24px; */
+    float: right;
 }
 
 h1 {
@@ -213,8 +222,8 @@ h1 {
 }
 
 video {
-    margin-top: -245px;
-    width: 582px;
+    margin-top: 31px;
+    width: 50%;
     height: 622px;
     height: 466.5px;
     border: solid black;
